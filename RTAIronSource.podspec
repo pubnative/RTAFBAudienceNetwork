@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "RTAIronSource"
-s.version          = "6.10.0"
+s.version          = "7.0.2"
 s.summary          = "RTAIronSource"
 
 s.description      = <<-DESC
