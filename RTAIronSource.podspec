@@ -11,7 +11,7 @@ s.homepage         = "https://github.com/pubnative/RTAIronSource.git"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "Fares Ben Hamouda" => "fares.benhamouda@pubnative.net" }
 
-s.platform     = :ios, '8.0'
+s.platform     = :ios, '9.0'
 #s.requires_arc = true
 
 s.source           = { :git => 'https://github.com/pubnative/RTAIronSource.git', :tag => s.version.to_s }
