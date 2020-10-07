@@ -18,5 +18,8 @@ s.source           = { :git => 'https://github.com/pubnative/RTAIronSource.git',
 
 s.vendored_frameworks = 'IronSource.framework'
 
+s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
 
